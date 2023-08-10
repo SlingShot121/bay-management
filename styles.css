@@ -369,6 +369,17 @@
     cursor: pointer;
 }
 
+.bay-footer {
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 .button-div-55 img {
     display: flex;
     width: auto;
