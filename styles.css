@@ -306,6 +306,10 @@
     border-bottom: 1px solid rgb(197, 197, 197);
 }
 
+.product-line-start {
+    display: inline-flex;
+}
+
 .inbay-line-end {
     margin-left: auto;
 }
