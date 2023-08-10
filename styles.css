@@ -354,8 +354,11 @@
 }
 
 .a-div-54 img {
-width: auto;
-height: 10px;
+    display: flex;
+    width: auto;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-div-55 {
