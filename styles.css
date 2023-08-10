@@ -309,9 +309,6 @@
 
 .inbay-line-end {
     margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-self: flex-end;
 }
 
 .p-div-48 {
