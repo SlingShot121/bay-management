@@ -353,6 +353,11 @@
     justify-self: flex-end;
 }
 
+.a-div-54 img {
+width: auto;
+height: 10px;
+}
+
 .button-div-55 {
     height: 40px;
     width: 70px;
