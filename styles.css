@@ -353,6 +353,12 @@
     justify-self: flex-end;
 }
 
+.inbay-bay-end {
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+
 .button-div-55 {
     height: 40px;
     width: 70px;
