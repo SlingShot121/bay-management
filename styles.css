@@ -312,6 +312,8 @@
 
 .inbay-line-end {
     margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .p-div-48 {
