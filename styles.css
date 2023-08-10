@@ -353,14 +353,6 @@
     justify-self: flex-end;
 }
 
-.a-div-54 img {
-    display: flex;
-    width: auto;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-}
-
 .button-div-55 {
     height: 40px;
     width: 70px;
@@ -368,6 +360,14 @@
     border: 1px solid #cccccc;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.button-div-55 img {
+    display: flex;
+    width: auto;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-div-56 {
