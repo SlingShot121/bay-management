@@ -311,6 +311,7 @@
 }
 
 .inbay-line-end {
+    display: inline-flex;
     margin-left: auto;
     justify-content: center;
     align-items: center;
