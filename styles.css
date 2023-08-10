@@ -313,7 +313,7 @@
 
 .inbay-line-end {
     display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
 .p-div-48 {
