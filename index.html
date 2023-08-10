@@ -5,27 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 5.3.1 Template</title>
-    <link rel="stylesheet" href="stylesTest.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="body-style">
     <div class="main-container">
         <div class="distribution-calendar">Distribution Calendar</div>
         <ul class="menu-list">
-            <li class="menu-item" page="1" class="calendar_menu" id="">
-                <p class="menu-text"><span class="menu-bold-text">Calendar view</span></p>
-            </li>
-            <!-- Repeat menu items as needed -->
+            <li class="menu-item" page="1"><p class="menu-text"><span class="menu-bold-text">Calendar view</span></p></li>
+            <li class="menu-item" page="2"><p class="menu-bold-text">Report</p></li>
+            <li class="menu-item" page="3"><p class="menu-bold-text">Packing List</p></li>
+            <li class="menu-item" page="4"><p class="menu-bold-text">Packed List</p></li>
+            <li class="menu-item" page="5"><p class="menu-bold-text">Reserved List</p></li>
+            <li class="menu-item" page="6"><p class="menu-bold-text">Bay Management</p></li>
         </ul>
     </div>
 
     <div id="ticker" class="ticker">
         <div class="ticker-header">
             <div class="bay-selector-container">
-                <!-- Bay selector code here -->
+                <p class="bay-label">Bay:</p>
+                <select class="bay-selector" name="bay" id="bay_selector">
+                    <option value="a1">A1</option>
+                    <option value="b2">B2</option>
+                    <option value="c3">C3</option>
+                    <option value="d4">D4</option>
+                    <option value="e5">E5</option>
+                    <option value="f6">F6</option>
+                </select>
             </div>
             <div class="action-buttons">
-                <!-- Action buttons code here -->
+                <button class="action-button">Add to Bay</button>
+                <input class="search-input" type="text" placeholder="Search by Reference #">
+                <button class="action-button">Go</button>
             </div>
         </div>
         <!-- More HTML code as needed -->
@@ -34,7 +46,6 @@
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2fbdcf2476.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
