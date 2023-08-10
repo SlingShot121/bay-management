@@ -312,6 +312,10 @@
     border-bottom: 1px solid rgb(197, 197, 197);
 }
 
+.div-div-47:last-child {
+    justify-content: end;
+}
+
 .product-line-start {
     display: flex;
     flex-direction: row;
