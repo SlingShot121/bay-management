@@ -17,6 +17,10 @@ document.getElementById('add-button').addEventListener('click', function() {
     if (bayFooterElement) {
         bayFooterElement.style.display = 'inline-flex'; // Show the bay-footer element
     }
+    let bayCapElement = document.getElementById('bay-cap');
+    if (bayCapElement) {
+        bayCapElement.style.display = 'inline-flex'; // Show the bay-footer element
+    }
 });
 
 document.getElementById('remove-button').addEventListener('click', function() {
@@ -29,5 +33,9 @@ document.getElementById('remove-button').addEventListener('click', function() {
     let bayFooterElement = document.getElementById('bay-footer');
     if (bayFooterElement) {
         bayFooterElement.style.display = 'none'; // Hide the bay-footer element
+    }
+    let bayCapElement = document.getElementById('bay-cap');
+    if (bayCapElement) {
+        bayCapElement.style.display = 'none'; // Hide the bay-footer element
     }
 });
