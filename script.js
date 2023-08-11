@@ -11,7 +11,7 @@ document.getElementById('go-button').addEventListener('click', function () {
     let userInput = document.getElementById('ref-search').value;
     if (userInput) {
         // Set the user input as the content of the top p tag with id order-ref
-        document.getElementById('outbay').querySelector('#order-ref').textContent = userInput;
+        document.getElementById('outbay').querySelector('#outbay-order-ref').textContent = userInput;
     }
 
     // Continue with the rest of your functionality for the "Go" button
