@@ -490,9 +490,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 270px;
+    width: auto;
 }
 
 .p-s, .c-w{
     height: 80px;
     width: 160px;
+}
+
+.c-w {
+    background-color: #808080;
+}
+
+.p-s {
+    background-color: #008000;
 }
