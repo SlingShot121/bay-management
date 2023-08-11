@@ -492,7 +492,7 @@
     align-items: center;
 }
 
-.p-s {
+.p-s, .c-w{
     height: 80px;
     width: 160px;
 }
