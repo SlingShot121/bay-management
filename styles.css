@@ -466,11 +466,8 @@
   
 .modal-header {
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
-}
-
-.closeModal {
-    display: flex;
-    justify-content: flex-end;
+    top: 0;
 }
