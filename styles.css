@@ -315,7 +315,6 @@
     margin-left: auto;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 .p-div-48 {
@@ -365,6 +364,7 @@
     height: 40px;
     width: 70px;
     background-color: red;
+    color: white;
     border: 1px solid #cccccc;
     border-radius: 5px;
     cursor: pointer;
