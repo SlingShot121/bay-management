@@ -466,14 +466,14 @@
 .modal-header {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: white;
     background-color: rgb(22, 88, 137);
-    height: 25px;
-    padding-top: 5px;
+    height: 30px;
 }
 
-.modal-header:nth-child(2) {
-    justify-content: center;
+.close-modal {
+    margin-left: auto;
+    margin-right: 5px;
 }
