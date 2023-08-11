@@ -31,14 +31,14 @@ document.getElementById('add-button').addEventListener('click', function () {
         }
     }
 
-    // Copy the content from the top p tag to the bottom one
-    let orderRefTop = document.getElementById('outbay').querySelector('#order-ref').textContent;
-    for (let i = 47; i <= 57; i++) {
-        let element = document.querySelector('.div-div-' + i);
-        if (element) {
-            element.querySelector('#order-ref').textContent = orderRefTop;
-        }
-    }
+    // Get the content from the top p tag with id order-ref
+    let orderRefTop = document.getElementById('order-ref').textContent;
+
+    // Copy the content to the bottom p tags with id order-ref
+    let bottomOrderRefs = document.querySelectorAll('.div-div-47 #order-ref, .div-div-57 #order-ref');
+    bottomOrderRefs.forEach(function(element) {
+        element.textContent = orderRefTop;
+    });
 
     // Continue with the rest of the functionality
     let outbay2Element = document.getElementById('outbay-2');
