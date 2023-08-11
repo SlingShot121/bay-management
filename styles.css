@@ -464,7 +464,7 @@
 }
   
 .modal-header {
-    display: flex;
+    display: inline-flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
