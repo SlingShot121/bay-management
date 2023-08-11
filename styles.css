@@ -473,3 +473,7 @@
     height: 25px;
     padding-top: 5px;
 }
+
+.modal-header span:last-of-type {
+    justify-content: center;
+}
