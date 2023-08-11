@@ -474,6 +474,6 @@
     padding-top: 5px;
 }
 
-.modal-header span:last-of-type {
+.modal-header:nth-child(2) {
     justify-content: center;
 }
