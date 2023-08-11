@@ -23,6 +23,14 @@ document.getElementById('add-button').addEventListener('click', function () {
         }
     }
 
+    // Get the user input from the ref-search field
+    let userInput = document.getElementById('ref-search').value;
+    if (userInput) {
+        // Set the user input as the content of the p tag with class p-div-bay
+        document.querySelector('.p-div-bay').textContent = userInput;
+    }
+
+    // Continue with the rest of the functionality
     let outbay2Element = document.getElementById('outbay-2');
     let outbayElement = document.getElementById('outbay');
     if (outbay2Element) outbay2Element.style.display = 'none';
