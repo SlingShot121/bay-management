@@ -10,8 +10,12 @@ document.getElementById('add-button').addEventListener('click', function() {
     for (let i = 47; i <= 57; i++) {
         let element = document.querySelector('.div-div-' + i);
         if (element) {
-            element.style.display = 'block'; // Show the element
+            element.style.display = 'inline-flex'; // Show the element
         }
+    }
+    let bayFooterElement = document.getElementById('bay-footer');
+    if (bayFooterElement) {
+        bayFooterElement.style.display = 'inline-flex'; // Show the bay-footer element
     }
 });
 
@@ -21,5 +25,9 @@ document.getElementById('remove-button').addEventListener('click', function() {
         if (element) {
             element.style.display = 'none'; // Hide the element
         }
+    }
+    let bayFooterElement = document.getElementById('bay-footer');
+    if (bayFooterElement) {
+        bayFooterElement.style.display = 'none'; // Hide the bay-footer element
     }
 });
