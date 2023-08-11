@@ -14,6 +14,15 @@ document.getElementById('go-button').addEventListener('click', function () {
 });
 
 document.getElementById('add-button').addEventListener('click', function () {
+    // Check if any of the bottom content is already displayed
+    for (let i = 47; i <= 57; i++) {
+        let element = document.querySelector('.div-div-' + i);
+        if (element && element.style.display === 'inline-flex') {
+            alert('There is already an order in this bay.');
+            return; // Exit the function without making changes
+        }
+    }
+
     let outbay2Element = document.getElementById('outbay-2');
     let outbayElement = document.getElementById('outbay');
     if (outbay2Element) outbay2Element.style.display = 'none';
