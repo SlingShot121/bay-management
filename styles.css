@@ -300,7 +300,7 @@
     border-right: 1px solid rgb(197, 197, 197);
 }
 
-.div-div-47 {
+.div-div-47, .div-div-top {
     display: flex;
     width: 870px;
     border-bottom: 1px solid rgb(197, 197, 197);
@@ -409,7 +409,7 @@
     align-items: center;
 }
 
-.div-div-57 {
+.div-div-57, .div-div-top2 {
     display: inline-flex;
     width: 870px;
     border-bottom: 1px solid rgb(197, 197, 197);
