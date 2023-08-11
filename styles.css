@@ -373,7 +373,6 @@
     display: flex;
     height: 40px;
     width: 80px;
-    background-color: red;
     color: white;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -383,6 +382,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.p-p {
+    background-color: #808080;
+}
+
+.d-s {
+    background-color: #0000FF;
+}
+
+.c-s {
+    background-color: #008000;
+}
+
 
 .bay-footer img {
     width: auto;
