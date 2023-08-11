@@ -7,6 +7,14 @@ document.getElementById('closeModal').addEventListener('click', function () {
 });
 
 document.getElementById('go-button').addEventListener('click', function () {
+    // Get the user input from the ref-search field
+    let userInput = document.getElementById('ref-search').value;
+    if (userInput) {
+        // Set the user input as the content of the top p tag with id order-ref
+        document.getElementById('outbay').querySelector('#order-ref').textContent = userInput;
+    }
+
+    // Continue with the rest of your functionality for the "Go" button
     let outbay2Element = document.getElementById('outbay-2');
     let outbayElement = document.getElementById('outbay');
     if (outbay2Element) outbay2Element.style.display = 'inline-flex';
@@ -23,11 +31,13 @@ document.getElementById('add-button').addEventListener('click', function () {
         }
     }
 
-    // Get the user input from the ref-search field
-    let userInput = document.getElementById('ref-search').value;
-    if (userInput) {
-        // Set the user input as the content of the p tag with class p-div-bay
-        document.querySelector('.p-div-bay').textContent = userInput;
+    // Copy the content from the top p tag to the bottom one
+    let orderRefTop = document.getElementById('outbay').querySelector('#order-ref').textContent;
+    for (let i = 47; i <= 57; i++) {
+        let element = document.querySelector('.div-div-' + i);
+        if (element) {
+            element.querySelector('#order-ref').textContent = orderRefTop;
+        }
     }
 
     // Continue with the rest of the functionality
@@ -38,12 +48,12 @@ document.getElementById('add-button').addEventListener('click', function () {
 
     for (let i = 47; i <= 57; i++) {
         let element = document.querySelector('.div-div-' + i);
-        if (element) element.style.display = 'inline-flex';
+        if (element) element.style.display = 'inline-flex'; // Show the element
     }
     let bayFooterElement = document.getElementById('bay-footer');
     let bayCapElement = document.getElementById('bay-cap');
-    if (bayFooterElement) bayFooterElement.style.display = 'inline-flex';
-    if (bayCapElement) bayCapElement.style.display = 'inline-flex';
+    if (bayFooterElement) bayFooterElement.style.display = 'inline-flex'; // Show the bay-footer element
+    if (bayCapElement) bayCapElement.style.display = 'inline-flex'; // Show the bay-footer element
 });
 
 document.getElementById('remove-button').addEventListener('click', function () {
