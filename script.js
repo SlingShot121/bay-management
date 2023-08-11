@@ -32,7 +32,7 @@ document.getElementById('add-button').addEventListener('click', function () {
     }
 
     // Get the content from the top p tag with id order-ref
-    let orderRefTop = document.getElementById('order-ref').textContent;
+    let orderRefTop = document.getElementById('outbay-order-ref').textContent;
 
     // Copy the content to the bottom p tags with id order-ref
     let bottomOrderRefs = document.querySelectorAll('.div-div-47 #order-ref, .div-div-57 #order-ref');
